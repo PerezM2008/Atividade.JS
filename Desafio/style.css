@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 70vh;
+    background-color: blue;
+
+
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 10vh;
+    width: 20vh;
+    background-color: aqua;
+}
+.container-resultado{
+    height: 5vh;
+    width: 5vh;
+    background-color: bisque;
+}
